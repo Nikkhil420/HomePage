@@ -6,11 +6,15 @@ $icon-color: #fff;
     flex-direction: row;
     justify-content: end;
     width: 70%;
+    height: 70px;
+    position: fixed;
+    right: 0;
 }
 
 .navbar {
     background-color: $navbar-bg;
     padding: 0rem 1.5rem !important;
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +106,9 @@ $icon-color: #fff;
 }
 
 @media (max-width: 768px) {
-    
+    .navbar {
+        min-width: 400px;
+    }
   
     .menuClosed{
         display: block;

@@ -4,7 +4,8 @@ import './Cards.css';
 function App() {
   return (
     <div className="App">
-      <div className="card" id='c1'>
+     <div className='Maincards'>
+     <div className="card" id='c1'>
         <h3>Explore Report Generation Tool 🧑</h3>
         <p>Checkout to our report generation tool ...</p>
         <button className="btn">📊 Report Generation</button>
@@ -29,6 +30,7 @@ function App() {
         <p>Checkout to our save list feature ...</p>
         <button className="btn">📁 Save List</button>
       </div>
+     </div>
       <div className='end'>
         <h4 id='e1'>© 2024, Made with❤️ </h4>
         <h4 id='e2'>Socialveins</h4>
