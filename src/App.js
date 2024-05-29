@@ -6,7 +6,7 @@ import Manage from "./components/manage/Manage";
 import "./App.css";
 
 
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './Header/Header';
 
@@ -31,7 +31,9 @@ function App() {
   return (
 
     <Router>
+
       <div className="App">
+      <Header/>
           <SideBar menuItems={menuItems} accountTitles={accountTitles} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,11 +41,7 @@ function App() {
           </Routes>
       </div>
     </Router>
-=======
-    <div className="App">
-<Header/>
-     
-    </div>
+
 
   );
 }
