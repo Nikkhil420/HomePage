@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+import React from 'react';
+
+
+import Cards from './Cards';
+import './Cards.css';
+import './CreateOrganization.css';
+import CreateOrganization from './CreateOrganization';
+
+function App() {
+  return (
+    <div className="App">
+      <CreateOrganization />
+    <Cards/>
+    </div>
+=======
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SideBar from "./components/sideBar/SideBar";
@@ -45,6 +61,7 @@ function App() {
      
     </div>
 
+>>>>>>> origin/main
   );
 }
 
