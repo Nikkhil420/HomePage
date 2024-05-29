@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "my-react-app",
+=======
   "name": "newapp",
+>>>>>>> origin/main
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +12,10 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
     "react-router-dom": "6.22.3",
+>>>>>>> origin/main
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -35,6 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+  }
+=======
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
@@ -44,4 +54,5 @@
     "sass": "^1.77.2"
   },
   "keywords": []
+>>>>>>> origin/main
 }
